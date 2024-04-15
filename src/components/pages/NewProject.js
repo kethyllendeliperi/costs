@@ -2,8 +2,9 @@ import Container from "../layout/Container"
 
 function NewProject() {
     return (
-        <Container>
-        </Container>
+        <div>
+            <h1>Novo projeto</h1>
+        </div>
     )
 }
 
