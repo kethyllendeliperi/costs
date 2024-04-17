@@ -9,7 +9,7 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
         e.preventDefault()
         handleRemove(id)
     }
-    
+
     return (
         <div className={styles.project_card}>
             <h4>{name}</h4>
@@ -21,10 +21,10 @@ function ProjectCard({ id, name, budget, category, handleRemove }) {
             </p>
             <div className={styles.project_card_actions}>
                 <Link to={`/project/${id}`}>
-                    <BsPencil/>Editar
+                    <BsPencil />Editar
                 </Link>
                 <button onClick={remove}>
-                    <BsFillTrashFill/>Excluir
+                    <BsFillTrashFill />Excluir
                 </button>
             </div>
         </div>

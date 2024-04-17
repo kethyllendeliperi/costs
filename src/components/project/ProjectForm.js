@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
 
-import Input from '../Form/Input'
-import Select from '../Form/Select'
-import SubmitButton from '../Form/SubmitButton'
+import Input from '../form/Input'
+import Select from '../form/Select'
+import SubmitButton from '../form/SubmitButton'
 
 import styles from './ProjectForm.module.css'
 
