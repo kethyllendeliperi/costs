@@ -1,11 +1,29 @@
 .btn {
     background-color: #222;
     color: #fff;
-    padding: 0.5em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     transition: 0.5s;
+    height: 50px;
+    width: 120px;
 }
 
 .btn:hover {
     color: #ffbb33;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: .7em;
+        padding: 1em 0.4em;
+        text-wrap: wrap;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

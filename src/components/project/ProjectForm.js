@@ -70,6 +70,8 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
             />
             <SubmitButton text={btnText} />
         </form>
+
+        
     )
 }
 

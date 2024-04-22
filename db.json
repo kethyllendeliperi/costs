@@ -1,14 +1,43 @@
 {
   "projects": [
     {
-      "id": "dab1",
-      "name": "teste 3",
+      "id": "8e24",
+      "name": "teste",
       "budget": "40000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 5000,
+      "services": [
+        {
+          "name": "serviço teste",
+          "cost": "5000",
+          "description": "serviço teste",
+          "id": "df78a476-eb67-4c3a-bbb5-22d7910da151"
+        }
+      ]
+    },
+    {
+      "id": "177f",
+      "name": "teste 2",
+      "budget": "100000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": -400,
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "468e",
+      "name": "teste 3",
+      "budget": "400000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
       "services": []
     }
   ],

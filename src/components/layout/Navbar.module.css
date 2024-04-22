@@ -23,3 +23,13 @@
 .item a:hover {
     color: #ffbb33;
 }
+
+@media (max-width: 768px) {
+    .item a {
+        font-size: 1.2em;
+    }
+
+    img {
+        margin-bottom: 1em;
+    }
+}

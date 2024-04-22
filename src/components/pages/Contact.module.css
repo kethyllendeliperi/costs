@@ -1,0 +1,22 @@
+.form_contact {
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.form_contact h1 {
+    margin-bottom: 1em;
+}
+
+.textarea {
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+    width: 100%;
+    resize: none;
+    margin-bottom: .8em;
+}
+
+h4 {
+    margin-bottom: .6em;
+}

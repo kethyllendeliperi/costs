@@ -1,0 +1,49 @@
+.title {
+    padding: 0.9em;
+}
+
+.company_container_title span {
+    color: #ffbb33;
+    padding: 0 .2em;
+    background-color: #222;
+}
+
+.company_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.company_container p {
+    align-self: center;
+    margin-bottom: 4em;
+}
+
+.company_container img {
+    width: 180px;
+    margin: 2em 0;
+    height: auto;
+    padding-right: 1.5em;
+}
+
+@media (max-width: 768px) {
+    .company_container_title {
+        font-size: 30px;
+        margin-top: .5em;
+    }
+
+    .company_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .company_container p {
+        padding: 1em;
+    }
+
+    .company_container img {
+        width: 150px;
+    }
+}

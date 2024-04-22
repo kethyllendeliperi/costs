@@ -1,9 +1,10 @@
 .project_card {
     padding: 1em;
+    width: 20%;
     border: 1px solid #7a7a7a;
     border-radius: 5px;
-    width: 24%;
-    margin: 0.5%;
+    margin: 0.8%;
+    flex-wrap: wrap;
 }
 
 .project_card h4 {
@@ -84,4 +85,12 @@
 .project_card_actions button:hover {
     background-color: #222;
     color: #ffbb33;
+}
+
+@media (max-width: 768px) {
+    .project_card {
+        display: block;
+        width: 100%;
+        margin-bottom: .5em;
+    }
 }
