@@ -17,6 +17,17 @@
     margin-bottom: .8em;
 }
 
-h4 {
+.contact_message {
     margin-bottom: .6em;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .contact_message {
+        font-size: 22px;
+    }
+
+    .textarea {
+        font-size: 18px;
+    }
 }

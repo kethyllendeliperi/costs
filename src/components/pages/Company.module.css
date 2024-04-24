@@ -27,16 +27,17 @@
 }
 
 @media (max-width: 768px) {
-    .company_container_title {
-        font-size: 30px;
-        margin-top: .5em;
-    }
-
     .company_container {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .company_container_title {
+        padding: 1em;
+        font-size: 30px;
+        margin-top: .5em;
     }
 
     .company_container p {
@@ -45,5 +46,26 @@
 
     .company_container img {
         width: 150px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .company_container {
+        padding: 1em;
+        margin: 0 auto;
+    }
+
+    .company_container_title {
+        margin: 1em;
+        font-size: 36px;
+    }
+
+    .company_container p {
+        padding: 1em;
+        font-size: 18px;
+    }
+
+    .company_container img {
+        width: 180px;
     }
 }

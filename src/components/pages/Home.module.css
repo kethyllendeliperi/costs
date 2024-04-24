@@ -24,7 +24,7 @@
 }
 
 .home_container img {
-    width: 350px;
+    width: 400px;
     margin: 2em 0;
 }
 
@@ -45,11 +45,5 @@
     .home_container img {
         width: 280px;
         margin: 2em 0;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .home_container img {
-        width: 320px;
     }
 }

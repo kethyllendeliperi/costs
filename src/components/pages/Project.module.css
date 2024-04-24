@@ -1,5 +1,6 @@
 .project_details {
   padding: 2em;
+  width: 100%;
 }
 
 .project_details h1,
@@ -55,5 +56,11 @@
     text-align: center;
     align-items: center;
     margin: .5em 0 .5em;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .project_details {
+    width: 100%;
   }
 }

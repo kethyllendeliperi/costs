@@ -15,3 +15,9 @@
     text-align: start;
   }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .title_container h1 {
+    font-size: 36px
+  }
+}

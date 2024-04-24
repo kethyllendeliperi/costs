@@ -21,7 +21,7 @@ function Contact() {
                     name="budget"
                     placeholder="(XX) XXXXX-XXXX"
                 />
-                <h4>Mensagem</h4>
+                <p className={styles.contact_message}>Mensagem</p>
                 <textarea className={styles.textarea} placeholder="Escreva sua mensagem" />
                 <SubmitButton text="Enviar" />
             </form>

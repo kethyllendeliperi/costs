@@ -33,3 +33,23 @@
         font-size: 14px;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 36px;
+        margin-bottom: .5em;
+    }
+
+    .form_control label {
+        font-size: 22px;
+    }
+
+    .form_control input {
+        padding: 1.5em;
+        margin-bottom: .5em;
+    }
+
+    .form_control input::placeholder {
+        font-size: 18px;
+    }
+}
